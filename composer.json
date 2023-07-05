@@ -9,12 +9,18 @@
     }
   ],
   "require": {
-    "php": ">=7.1.0",
+    "php": ">=8.0",
     "ext-mbstring": "*",
     "ext-gd": "*",
-    "topthink/framework": "^6.0.0",
-    "yiovo/tp6-cache": "^1.0"
+    "topthink/framework": "^6.0 || ^8.0",
+    "yiovo/tp6-cache": "dev-master"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:likia/tp6-cache.git"
+    }
+  ],
   "homepage": "https://github.com/yiovo/tp6-captcha",
   "autoload": {
     "psr-4": {
